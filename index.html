@@ -1,4 +1,198 @@
-<h2>Hello World!</h2>
+<!DOCTYPE html>
+<html lang="en" data-theme="emerald">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Santoyo Design | Home</title>
+</head>
+<body>
 
-<a href="/resume.pdf">Resume</a>
+<div class="flex flex-col items-center">
 
+    <!--Navbar-->
+    <div class="navbar bg-base-100 max-w-screen-2xl">
+        <div class="flex-1">
+            <img class="h-8 w-auto mx-2" src="images/logo.png" alt="logo">
+            <a class="btn btn-ghost text-xl">Santoyo Design</a>
+            <a class="btn btn-ghost text-xl lg:flex hidden" href="tel:8472939796">(847) 293-9796</a>
+        </div>
+        <div class="flex-none">
+            <ul class="menu menu-horizontal px-1 hidden lg:flex">
+                <li><a>About</a></li>
+                <li><a>Services</a></li>
+                <li><a>Service Area</a></li>
+                <li><a>Gallery</a></li>
+                <li><a>Contact</a></li>
+            </ul>
+            <a class="btn btn-secondary">Free Estimate</a>
+            <div class="dropdown dropdown-end">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-5 h-5 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+                    <li><a>About</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Service Area</a></li>
+                    <li><a>Gallery</a></li>
+                    <li><a>Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--Phone Number-->
+    <div class="bg-accent font-bold min-w-full text-center py-2 lg:hidden">
+        <a class="btn btn-ghost text-lg" href="tel:8472939796">Call Today - (847) 293-9796</a>
+    </div>
+
+    <!--Hero-->
+    <div class="hero min-h-[70vh]" style="background-image: url(images/house.jpg);">
+        <div class="hero-overlay bg-opacity-60 bg-black"></div>
+        <div class="hero-content text-center text-neutral-content">
+            <div class="max-w-md">
+                <h1 class="text-5xl font-bold">Windows, Siding, Gutters & More</h1>
+                <p class="py-6">For over 40 years, our family-owned business has provided top-quality services for all your home improvement needs. From siding and doors to windows, painting, roof repairs, gutters, downspouts, and soffit fascia, we've got you covered.</p>
+                <button class="btn btn-secondary">Request a Free Estimate</button>
+            </div>
+        </div>
+    </div>
+
+    <!--Description-->
+    <h1 class="text-center text-3xl font-bold max-w-2xl py-12 mx-12">Upgrade your home with expert siding, roofing, windows, doors & more! Family-owned and trusted for over 40 years.</h1>
+    <p class="text-center py-2 max-w-screen-2xl mx-12">Santoyo Design is your trusted, family-owned partner for comprehensive home improvement needs. With over 40 years of experience, we offer expert installation, repair, and replacement services for a wide range of exterior projects. From enhancing curb appeal with beautiful siding and energy-efficient windows to ensuring your home's protection with reliable roofing and gutter systems, our skilled team delivers quality craftsmanship and lasting results. We also specialize in doors, painting, soffit, and fascia, making us your one-stop shop for a more beautiful and functional home.</p>
+
+    <!--Cards-->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-screen-2xl my-12 mx-12">
+        <div class="card bg-base-100 shadow-xl">
+            <figure class="aspect-video">
+                <img src="images/siding1.jpg" alt="Siding" class="object-cover" />
+            </figure>
+            <div class="card-body">
+                <h2 class="card-title">Siding</h2>
+                <p>High-quality siding installation and replacement services.</p>
+                <div class="card-actions">
+                    <a href="/services/siding" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card bg-base-100 shadow-xl">
+            <figure class="aspect-video">
+                <img src="images/door2.jpg" alt="Doors" class="object-cover" />
+            </figure>
+            <div class="card-body">
+                <h2 class="card-title">Doors</h2>
+                <p>Expert door installation and replacement services.</p>
+                <div class="card-actions">
+                    <a href="/services/doors" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card bg-base-100 shadow-xl">
+            <figure class="aspect-video">
+                <img src="images/window1.jpg" alt="Windows" class="object-cover" />
+            </figure>
+            <div class="card-body">
+                <h2 class="card-title">Windows</h2>
+                <p>High-quality window installation and replacement services.</p>
+                <div class="card-actions">
+                    <a href="/services/windows" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card bg-base-100 shadow-xl">
+            <figure class="aspect-video">
+                <img src="images/paint1.jpg" alt="Painting" class="object-cover" />
+            </figure>
+            <div class="card-body">
+                <h2 class="card-title">Painting</h2>
+                <p>Professional interior and exterior painting services.</p>
+                <div class="card-actions">
+                    <a href="/services/painting" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card bg-base-100 shadow-xl">
+            <figure class="aspect-video">
+                <img src="images/roof1.jpg" alt="Roof Repairs" class="object-cover" />
+            </figure>
+            <div class="card-body">
+                <h2 class="card-title">Roof Repairs</h2>
+                <p>Expert roof repair and maintenance services.</p>
+                <div class="card-actions">
+                    <a href="/services/roof-repairs" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card bg-base-100 shadow-xl">
+            <figure class="aspect-video">
+                <img src="images/gutters1.jpg" alt="Gutters" class="object-cover" />
+            </figure>
+            <div class="card-body">
+                <h2 class="card-title">Gutters</h2>
+                <p>Professional gutter installation and maintenance services.</p>
+                <div class="card-actions">
+                    <a href="/services/gutters" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card bg-base-100 shadow-xl">
+            <figure class="aspect-video">
+                <img src="images/downspout1.jpg" alt="Downspouts" class="object-cover" />
+            </figure>
+            <div class="card-body">
+                <h2 class="card-title">Downspouts</h2>
+                <p>Installation and repair of downspouts for proper drainage.</p>
+                <div class="card-actions">
+                    <a href="/services/downspouts" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card bg-base-100 shadow-xl">
+            <figure class="aspect-video">
+                <img src="images/soffit1.png" alt="Soffit Fascia" class="object-cover" />
+            </figure>
+            <div class="card-body">
+                <h2 class="card-title">Soffit Fascia</h2>
+                <p>Professional soffit and fascia installation and repair services.</p>
+                <div class="card-actions">
+                    <a href="/services/soffit-fascia" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="footer footer-center p-10 bg-base-200 text-primary-content">
+        <nav class="grid grid-flow-col gap-4">
+            <a class="link link-hover">About</a>
+            <a class="link link-hover">Services</a>
+            <a class="link link-hover">Service Area</a>
+            <a class="link link-hover">Gallery</a>
+            <a class="link link-hover">Contact</a>
+        </nav>
+        <aside>
+            <p class="font-bold text-3xl">Santoyo Design Co.</p>
+            <p class="font-bold">(847) 293-9796</p>
+            <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
+            <p>Copyright © 2024 - All right reserved</p>
+        </aside>
+    </footer>
+
+
+
+
+</div>
+
+</body>
+</html>
