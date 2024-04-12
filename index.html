@@ -3,10 +3,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.1/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/x-icon" href="src/images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="src/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="src/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="src/images/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="src/images/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="src/images/android-chrome-512x512.png">
+    <link href="src/css/index.css" rel="stylesheet" type="text/css" />
     <title>Santoyo Design | Home</title>
 </head>
 <body>
@@ -16,7 +19,7 @@
     <!--Navbar-->
     <div class="navbar bg-base-100 max-w-screen-2xl">
         <div class="flex-1">
-            <img class="h-8 w-auto mx-2" src="images/logo.png" alt="logo">
+            <img class="h-8 w-auto mx-2" src="src/images/logo.png" alt="logo">
             <a class="btn btn-ghost text-xl">Santoyo Design</a>
             <a class="btn btn-ghost text-xl lg:flex hidden" href="tel:8472939796">(847) 293-9796</a>
         </div>
@@ -55,7 +58,7 @@
     </div>
 
     <!--Hero-->
-    <div class="min-w-full min[70vh] bg-cover bg-center" style="background-image: url(images/house.jpg);">
+    <div class="min-w-full min[70vh] bg-cover bg-center" style="background-image: url(src/images/house.jpg);">
         <div class="bg-opacity-60 bg-black min-h-[70vh] w-full flex items-center justify-center">
         <div class="text-center text-neutral-content">
             <div class="max-w-xl px-3">
@@ -68,17 +71,17 @@
     </div>
 
     <!--Description-->
-    <h1 class="text-center text-4xl font-bold max-w-2xl py-12 mx-12">OUR SERVICES</h1>
+    <h1 class="text-center text-4xl font-bold max-w-2xl py-12 mx-12">SERVICES</h1>
 
     <!--Cards-->
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-screen-2xl my-12 mx-12">
         <div class="card bg-base-100 shadow-xl">
             <figure class="aspect-video">
-                <img src="images/siding1.jpg" alt="Siding" class="object-cover" />
+                <img src="src/images/siding1.jpg" alt="Siding" class="object-cover" />
             </figure>
             <div class="card-body">
                 <h2 class="card-title">Siding</h2>
-                <p>High-quality siding installation and replacement services.</p>
+                <p>Upgrade your home's exterior with our high-quality siding installation and replacement services.</p>
             </div>
             <div class="card-actions justify-end w-full">
                 <a href="/services/siding" class="btn btn-secondary w-full">Learn More</a>
@@ -87,11 +90,11 @@
 
         <div class="card bg-base-100 shadow-xl">
             <figure class="aspect-video">
-                <img src="images/door2.jpg" alt="Doors" class="object-cover" />
+                <img src="src/images/door2.jpg" alt="Doors" class="object-cover" />
             </figure>
             <div class="card-body">
                 <h2 class="card-title">Doors</h2>
-                <p>Expert door installation and replacement services.</p>
+                <p>Transform your home's entrance with our stylish and secure door installation options.</p>
             </div>
             <div class="card-actions justify-end w-full">
                 <a href="/services/doors" class="btn btn-secondary w-full">Learn More</a>
@@ -100,11 +103,11 @@
 
         <div class="card bg-base-100 shadow-xl">
             <figure class="aspect-video">
-                <img src="images/window1.jpg" alt="Windows" class="object-cover" />
+                <img src="src/images/window1.jpg" alt="Windows" class="object-cover" />
             </figure>
             <div class="card-body">
                 <h2 class="card-title">Windows</h2>
-                <p>High-quality window installation and replacement services.</p>
+                <p>Brighten up your space and boost energy efficiency with our window replacement services.</p>
             </div>
             <div class="card-actions justify-end w-full">
                 <a href="/services/windows" class="btn btn-secondary w-full">Learn More</a>
@@ -113,11 +116,11 @@
 
         <div class="card bg-base-100 shadow-xl">
             <figure class="aspect-video">
-                <img src="images/paint1.jpg" alt="Painting" class="object-cover" />
+                <img src="src/images/paint1.jpg" alt="Painting" class="object-cover" />
             </figure>
             <div class="card-body">
                 <h2 class="card-title">Painting</h2>
-                <p>Professional interior and exterior painting services.</p>
+                <p>Breathe new life into your home's interior and exterior with our professional painting services.</p>
             </div>
             <div class="card-actions justify-end w-full">
                 <a href="/services/painting" class="btn btn-secondary w-full">Learn More</a>
@@ -126,11 +129,11 @@
 
         <div class="card bg-base-100 shadow-xl">
             <figure class="aspect-video">
-                <img src="images/roof1.jpg" alt="Roof Repairs" class="object-cover" />
+                <img src="src/images/roof1.jpg" alt="Roof Repairs" class="object-cover" />
             </figure>
             <div class="card-body">
                 <h2 class="card-title">Roof Repairs</h2>
-                <p>Expert roof repair and maintenance services.</p>
+                <p>Protect your home from the elements with our expert roof repair and maintenance.</p>
             </div>
             <div class="card-actions justify-end w-full">
                 <a href="/services/roof-repairs" class="btn btn-secondary w-full">Learn More</a>
@@ -139,11 +142,11 @@
 
         <div class="card bg-base-100 shadow-xl">
             <figure class="aspect-video">
-                <img src="images/gutters1.jpg" alt="Gutters" class="object-cover" />
+                <img src="src/images/gutters1.jpg" alt="Gutters" class="object-cover" />
             </figure>
             <div class="card-body">
                 <h2 class="card-title">Gutters</h2>
-                <p>Professional gutter installation and maintenance services.</p>
+                <p>Keep your home dry and prevent water damage with our gutter installation and maintenance.</p>
             </div>
             <div class="card-actions justify-end w-full">
                 <a href="/services/gutters" class="btn btn-secondary w-full">Learn More</a>
@@ -152,11 +155,11 @@
 
         <div class="card bg-base-100 shadow-xl">
             <figure class="aspect-video">
-                <img src="images/downspout1.jpg" alt="Downspouts" class="object-cover" />
+                <img src="src/images/downspout1.jpg" alt="Downspouts" class="object-cover" />
             </figure>
             <div class="card-body">
                 <h2 class="card-title">Downspouts</h2>
-                <p>Installation and repair of downspouts for proper drainage.</p>
+                <p>Ensure proper drainage and avoid foundation issues with our downspout installation and repair.</p>
             </div>
             <div class="card-actions justify-end w-full">
                 <a href="/services/downspouts" class="btn btn-secondary w-full">Learn More</a>
@@ -165,11 +168,11 @@
 
         <div class="card bg-base-100 shadow-xl">
             <figure class="aspect-video">
-                <img src="images/soffit1.png" alt="Soffit Fascia" class="object-cover" />
+                <img src="src/images/soffit1.png" alt="Soffit Fascia" class="object-cover" />
             </figure>
             <div class="card-body">
                 <h2 class="card-title">Soffit Fascia</h2>
-                <p>Professional soffit and fascia installation and repair services.</p>
+                <p>Enhance your home's curb appeal and ventilation with our soffit and fascia installation and repair.</p>
             </div>
             <div class="card-actions justify-end w-full">
                 <a href="/services/soffit-fascia" class="btn btn-secondary w-full">Learn More</a>
