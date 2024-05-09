@@ -25,109 +25,23 @@
     <h1 class="text-center text-4xl font-bold max-w-2xl pt-12 mx-12">SERVICES</h1>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-screen-2xl my-12 mx-2">
-        <div class="card bg-base-100 shadow-xl">
-            <figure class="aspect-video">
-                <img src="src/images/siding5.jpg" alt="Siding" class="object-cover" />
-            </figure>
-            <div class="card-body">
-                <h2 class="card-title">Siding</h2>
-                <p>Upgrade your home's exterior with our high-quality siding installation and replacement services.</p>
-            </div>
-            <div class="card-actions justify-end w-full">
-                <a href="/services#siding" class="btn btn-secondary w-full">Learn More</a>
-            </div>
-        </div>
 
-        <div class="card bg-base-100 shadow-xl">
-            <figure class="aspect-video">
-                <img src="src/images/door2.jpg" alt="Doors" class="object-cover" />
-            </figure>
-            <div class="card-body">
-                <h2 class="card-title">Doors</h2>
-                <p>Transform your home's entrance with our stylish and secure door installation options.</p>
-            </div>
-            <div class="card-actions justify-end w-full">
-                <a href="/services#doors" class="btn btn-secondary w-full">Learn More</a>
-            </div>
-        </div>
+        {{> service_card id="siding" header="Siding" image="src/images/siding5.jpg" alt="Siding" link="/services#siding" description="Upgrade your home's exterior with our high-quality siding installation and replacement services."}}
 
-        <div class="card bg-base-100 shadow-xl">
-            <figure class="aspect-video">
-                <img src="src/images/window1.jpg" alt="Windows" class="object-cover" />
-            </figure>
-            <div class="card-body">
-                <h2 class="card-title">Windows</h2>
-                <p>Brighten up your space and boost energy efficiency with our window replacement services.</p>
-            </div>
-            <div class="card-actions justify-end w-full">
-                <a href="/services#windows" class="btn btn-secondary w-full">Learn More</a>
-            </div>
-        </div>
+        {{> service_card id="doors" header="Doors" image="src/images/door2.jpg" alt="Doors" link="/services#doors" description="Transform your home's entrance with our stylish and secure door installation options."}}
 
-        <div class="card bg-base-100 shadow-xl">
-            <figure class="aspect-video">
-                <img src="src/images/paint1.jpg" alt="Painting" class="object-cover" />
-            </figure>
-            <div class="card-body">
-                <h2 class="card-title">Painting</h2>
-                <p>Breathe new life into your home's interior and exterior with our professional painting services.</p>
-            </div>
-            <div class="card-actions justify-end w-full">
-                <a href="/services#painting" class="btn btn-secondary w-full">Learn More</a>
-            </div>
-        </div>
+        {{> service_card id="windows" header="Windows" image="src/images/window1.jpg" alt="Windows" link="/services#windows" description="Brighten up your space and boost energy efficiency with our window replacement services."}}
 
-        <div class="card bg-base-100 shadow-xl">
-            <figure class="aspect-video">
-                <img src="src/images/roof1.jpg" alt="Roof Repairs" class="object-cover" />
-            </figure>
-            <div class="card-body">
-                <h2 class="card-title">Roof Repairs</h2>
-                <p>Protect your home from the elements with our expert roof repair and maintenance.</p>
-            </div>
-            <div class="card-actions justify-end w-full">
-                <a href="/services#roofs" class="btn btn-secondary w-full">Learn More</a>
-            </div>
-        </div>
+        {{> service_card id="painting" header="Painting" image="src/images/paint1.jpg" alt="Painting" link="/services#painting" description="Breathe new life into your home's interior and exterior with our professional painting services."}}
 
-        <div class="card bg-base-100 shadow-xl">
-            <figure class="aspect-video">
-                <img src="src/images/gutters1.jpg" alt="Gutters" class="object-cover" />
-            </figure>
-            <div class="card-body">
-                <h2 class="card-title">Gutters & Downspouts</h2>
-                <p>Protect your home with our gutter and downspout services for proper drainage and water damage prevention.</p>
-            </div>
-            <div class="card-actions justify-end w-full">
-                <a href="/services#gutters" class="btn btn-secondary w-full">Learn More</a>
-            </div>
-        </div>
+        {{> service_card id="roofs" header="Roof Repairs" image="src/images/roof1.jpg" alt="Roof Repairs" link="/services#roofs" description="Protect your home from the elements with our expert roof repair and maintenance."}}
 
-        <div class="card bg-base-100 shadow-xl">
-            <figure class="aspect-video">
-                <img src="src/images/awning2.jpg" alt="Awnings" class="object-cover" />
-            </figure>
-            <div class="card-body">
-                <h2 class="card-title">Awnings</h2>
-                <p>Enhance your outdoor living space with our professional awning installation, providing shade and protection from the elements.</p>
-            </div>
-            <div class="card-actions justify-end w-full">
-                <a href="/services#awnings" class="btn btn-secondary w-full">Learn More</a>
-            </div>
-        </div>
+        {{> service_card id="gutters" header="Gutters & Downspouts" image="src/images/gutters1.jpg" alt="Gutters" link="/services#gutters" description="Protect your home with our gutter and downspout services for proper drainage and water damage prevention."}}
 
-        <div class="card bg-base-100 shadow-xl">
-            <figure class="aspect-video">
-                <img src="src/images/soffit1.png" alt="Soffit Fascia" class="object-cover" />
-            </figure>
-            <div class="card-body">
-                <h2 class="card-title">Soffit Fascia</h2>
-                <p>Enhance your home's curb appeal and ventilation with our soffit and fascia installation and repair.</p>
-            </div>
-            <div class="card-actions justify-end w-full">
-                <a href="/services#soffit" class="btn btn-secondary w-full">Learn More</a>
-            </div>
-        </div>
+        {{> service_card id="awnings" header="Awnings" image="src/images/awning2.jpg" alt="Awnings" link="/services#awnings" description="Enhance your outdoor living space with our professional awning installation, providing shade and protection from the elements."}}
+
+        {{> service_card id="soffit" header="Soffit Fascia" image="src/images/soffit1.png" alt="Soffit Fascia" link="/services#soffit" description="Enhance your home's curb appeal and ventilation with our soffit and fascia installation and repair."}}
+
     </div>
 
     {{> footer }}
